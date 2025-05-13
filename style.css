@@ -40,10 +40,6 @@ header {
 }
 
 
- .about{
-    transform: translateY(-55px);
-  animation: fadeIn 2s forwards ease-in-out;
- }
 .navbar {
   display: flex;
   gap: 1.5rem;
@@ -123,8 +119,10 @@ header {
 }
 
 section {
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
   text-align: center;
+  transform: translateY(-55px);
+    animation: fadeIn 2s forwards ease-in-out;
 }
 
 h2 {
