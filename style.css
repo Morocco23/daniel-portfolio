@@ -67,6 +67,9 @@ header {
     animation: fadeIn 5.5s forwards ease-in-out;
  }
 
+ .about{
+    transition: 3s;
+ }
 .navbar {
   display: flex;
   gap: 1.5rem;
