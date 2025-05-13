@@ -35,8 +35,8 @@ header {
   font-size: 1.5rem;
   font-weight: bold;
   opacity: 0;
-    transform: translateX(-25px);
-    animation: fadeIn 2s forwards ease-in-out;
+transform: translateX(-25px);
+animation: fadeIn 2s forwards ease-in-out;
 }
 
 @keyframes fadeIn {
@@ -72,7 +72,8 @@ header {
   color: white;
   text-align: center;
   padding: 5rem 2rem;
-  transition: all 2s ease;
+  transform: translateY(-200px);
+  animation: fadeIn 2s forwards ease-in-out;
 }
 
 .hero h1 span {
