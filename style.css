@@ -39,7 +39,33 @@ header {
   animation: fadeIn 2s forwards ease-in-out;
 }
 
-
+#first {
+    color: white;
+    opacity: 0;
+    animation: fadeIn 3s forwards ease-in-out;
+}
+ #second {
+    color: white;
+    opacity: 0;
+    animation: fadeIn 3.5s forwards ease-in-out;
+ }
+#third {
+    opacity: 0;
+    animation: fadeIn 4s forwards ease-in-out;
+ }
+#frth {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 4.5s forwards ease-in-out;
+ }
+ #fifth{
+    opacity: 0;
+    animation: fadeIn 5s forwards ease-in-out;
+ }
+ #sixth {
+    opacity: 0;
+    animation: fadeIn 5.5s forwards ease-in-out;
+ }
 
 .navbar {
   display: flex;
@@ -73,6 +99,7 @@ header {
 
 .hero h1 span {
   color: var(--accent);
+  animation: fadeIn 2s forwards ease-in-out;
 }
 
 .btn {
@@ -180,6 +207,7 @@ footer {
 @keyframes fadeIn {
     to {
         opacity: 1;
+        transform: translateX(0);
         transform: translateY(0);
     }
 }
