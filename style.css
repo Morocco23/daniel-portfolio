@@ -35,16 +35,11 @@ header {
   font-size: 1.5rem;
   font-weight: bold;
   opacity: 0;
-transform: translateX(-25px);
-animation: fadeIn 2s forwards ease-in-out;
+  transform: translateX(-25px);
+  animation: fadeIn 2s forwards ease-in-out;
 }
 
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+
 
 .navbar {
   display: flex;
@@ -180,4 +175,11 @@ footer {
   .menu-toggle {
     display: block;
   }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
