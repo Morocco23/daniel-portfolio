@@ -40,9 +40,9 @@ header {
 }
 
 
-
  .about{
-    transition: 3s;
+    transform: translateY(-55px);
+  animation: fadeIn 2s forwards ease-in-out;
  }
 .navbar {
   display: flex;
