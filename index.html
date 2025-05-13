@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daniel Eniola | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Daniel Eniola</div>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Daniel Eniola</span></h1>
+      <p>Android & Web Developer | Data Analyst | CS Educator</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      Passionate about technology and education, I specialize in Android and web development, data management, and computer science education. With years of experience across programming, analytics, and teaching, I build innovative solutions and empower learners globally.
+    </p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skill-list">
+      <div>Android (Kotlin, Jetpack Compose)</div>
+      <div>Web Development (HTML, CSS, JS)</div>
+      <div>Firebase & SQLite</div>
+      <div>Data Analysis (Excel, Python, SQL)</div>
+      <div>Teaching & Curriculum Design</div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>FlashCard Quiz App</h3>
+        <p>A Kotlin-based Android app to create, save, and quiz yourself with flashcards.</p>
+      </div>
+      <div class="project-card">
+        <h3>Smart Result System</h3>
+        <p>A result management platform with grade insights, GPA analytics, and teacher feedback.</p>
+      </div>
+      <div class="project-card">
+        <h3>Data Dashboard</h3>
+        <p>Web-based dashboard using HTML, CSS, and JS for data visualization and insights.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Daniel Eniola. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
