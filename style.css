@@ -113,7 +113,6 @@ header {
   color: white;
   text-align: center;
   padding: 5.5rem 2rem;
-  padding-bottom: 2rem;
   transform: translateY(-200px);
   animation: fadeIn 2s forwards ease-in-out;
 }
