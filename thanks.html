@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thank You</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f4f6f8; /* dark navy */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #e0f2fe; /* light blue text */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #0078D7; /* Blue Accent 5 */
+      margin-bottom: 1rem;
+      opacity: 0;
+      animation: fadeIn 1.5s forwards ease-in-out;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #748091; /* muted blue/gray */
+      margin-bottom: 2rem;
+      opacity: 0;
+      animation: fadeIn 1.5s forwards 0.2s ease-in-out;
+    }
+
+    a.button {
+      text-decoration: none;
+      background-color: #0078D7; /* primary accent */
+      color: #ffffff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0, 120, 215, 0.4);
+      transition: background-color 0.3s, box-shadow 0.3s;
+      opacity: 0;
+      animation: fadeIn 2s forwards 0.5s ease-in-out;
+    }
+
+    a.button:hover {
+      background-color: #005A9E;
+      box-shadow: 0 6px 16px rgba(0, 90, 158, 0.5);
+    }
+
+    @keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+        transform: translateY(0);
+    }
+}
+  </style>
+</head>
+<body>
+
+  <h1>Thank You!</h1>
+  <p>Your message has been sent successfully.</p>
+  <a class="button" href="https://morocco23.github.io/daniel-portfolio/">Go Back to Portfolio</a>
+
+</body>
+</html>

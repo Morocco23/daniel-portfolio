@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daniel Eniola | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      
+      <h1>I'M A
+        <span>
+          <span >DESIGNER</span>
+          <span >DEVELOPER</span>
+          <span >CS EDUCATOR</span>
+          <span >PROGRAMMER</span>
+          <span >DATA ANALYST</span>
+          <span >DESIGNER</span>
+        </span>
+      </h1>
+    </div>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1><span id="first">Hello,</span><span id="second"> I'm </span><span id="third">Daniel Eniola</span></h1>
+      <img src="./img/profile-pic.jpg" alt="" class="profile-pic" />
+      <p> <span id="frth">UI/UX Designer | </span>  <span id="fifth">Android & Web Developer | </span> <span id="sixth">Data Analyst | </span> <span id="seventh">CS Educator</span></p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      Passionate about technology and education, I specialize in Android and web development, data management, and computer science education. With years of experience across programming, analytics, and teaching, I build innovative solutions and empower learners globally.
+    </p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skill-list">
+      <div>Android (Kotlin, Jetpack Compose)</div>
+      <div>Web Development (HTML, CSS, JS)</div>
+      <div>Firebase & SQLite</div>
+      <div>Data Analysis (Excel, Python, SQL)</div>
+      <div>Teaching & Curriculum Design</div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+       <div class="project-card">
+        <h3>Student Ranking App</h3>
+        <br>
+        <p><strong>Overview:</strong> A intuitive mobile to help teachers easily manage student performance by automatically calculating total scores, averages, percentages, and class positions.</p>
+        <p><strong>Client:</strong> The Anointed International School  <img src="./img/aistransparent.webp" alt="" class="simg"></p>
+        <p><strong>Tools & Technologies:</strong> Kotlin, Jetpack Compose, Material Design</p>
+      </div>
+      <div class="project-card">
+        <h3>FlashCard Quiz App</h3>
+        <br>
+        <p><strong>Overview:</strong> A simple and interactive mobile app designed to help students prepare for tests, review topics, and study more effectively.</p>
+        <p><strong>Client:</strong> The Students of Heim-Weldios University of Management and Technology <br> <img src="./img/cropped-weildio.png" alt="" class="simg"></p>
+        <p><strong>Tools & Technologies:</strong> Kotlin, Jetpack Compose, JUnit</p>
+      </div>
+      <div class="project-card">
+        <h3>Smart Result Management System</h3>
+        <br>
+        <p><strong>Overview:</strong> A web-based application designed to simplify and automate student result processing</p>
+        <p> Alleviated the Manual system of Result Management</p>
+        <p><strong>Target User:</strong> Heim-Weldios University of Management and Technology <br> <img src="./img/cropped-weildio.png" alt="" class="simg"></p>
+        <p><strong>Tools & Technologies:</strong> HTML/CSS, JavaScript, Nodejs, SQL, ApexCharts, Firebase</p>
+      </div>
+      <div class="project-card">
+        <h3>Encryption App</h3>
+        <p><strong>Overview:</strong> A secure mobile application designed to protect sensitive information by converting plain text into encrypted data.</p>
+        <p><strong>Client:</strong> Classic Seven <img src="./img/classic7.png" alt="" class="simg"></p>
+        <p><strong>Tools & Technologies:</strong> Kotlin, Jetpack Compose, XML, Java Cryptography API (JCA), Android Keystore System, Room Database, Firebase</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formsubmit.co/eniolad206@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+       <input type="hidden" name="_next" value="https://morocco23.github.io/daniel-portfolio/thanks.html">
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Daniel Eniola. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
