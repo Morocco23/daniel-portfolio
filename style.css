@@ -112,7 +112,7 @@ header {
   background: var(--dark);
   color: white;
   text-align: center;
-  padding: 5.5rem 2rem;
+  padding: 11rem 2rem;
   transform: translateY(-200px);
   animation: fadeIn 2s forwards ease-in-out;
 }
@@ -265,7 +265,21 @@ footer {
     display: block;
   }
 }
-
+@media screen and (max-width: 1900px) {
+  .hero {
+    padding: 12rem 2rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hero {
+    padding: 11.5rem 2rem;
+  }
+}
+@media screen and (max-width: 490px) {
+  .hero {
+    padding: 6rem 2rem;
+  }
+}
 @keyframes fadeIn {
     to {
         opacity: 1;
