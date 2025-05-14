@@ -277,7 +277,7 @@ footer {
 }
 @media screen and (max-width: 490px) {
   .hero {
-    padding: 6rem 2rem;
+    padding: 8rem 2rem;
   }
 }
 @keyframes fadeIn {
