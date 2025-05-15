@@ -17,6 +17,7 @@ body {
   background: var(--light);
   color: var(--text);
   scroll-behavior: smooth;
+  transition: all 1s ease-in-out;
 }
 
 header {
@@ -94,7 +95,8 @@ header {
 .navbar a {
   color: white;
   text-decoration: none;
-  transition: color 0.3s ease;
+  opacity: 0;
+  animation: fadeIn 2s forwards ease-in-out;
 }
 
 .navbar a:hover {
@@ -105,7 +107,7 @@ header {
   display: none;
   font-size: 1.8rem;
   cursor: pointer;
-  transition: 0.2s ease;
+  transition: 0.5s ease;
 }
 
 .hero {
@@ -266,6 +268,12 @@ footer {
     top: 60px;
     width: 100%;
     text-align: center;
+    opacity: 0;
+    animation: fadeInPro 1s forwards ease-in-out;
+  }
+  .navbar a {
+    opacity: 0;
+    animation: fadeIn 1.5s forwards ease-in-out;;
   }
 
   .navbar.show {
@@ -294,8 +302,24 @@ footer {
 @keyframes fadeIn {
     to {
         opacity: 1;
-        transform: scale(1);
-        transform: translateX(0);
+        transform: translateY(0);
+    }
+}
+@keyframes fadeInPro {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    25% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    75% {
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
         transform: translateY(0);
     }
 }
